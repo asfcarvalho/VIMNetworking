@@ -85,6 +85,9 @@ NSString *VIMContentRating_Safe = @"safe";
 {
     if([key isEqualToString:@"files"])
         return [VIMVideoFile class];
+	
+    if([key isEqualToString:@"download"])
+        return [VIMVideoFile class];
     
     if ([key isEqualToString:@"tags"])
         return [VIMTag class];
