@@ -62,6 +62,7 @@ typedef NS_ENUM(NSUInteger, VIMVideoProcessingStatus) {
 @property (nonatomic, copy, nullable) NSString *videoDescription;
 @property (nonatomic, strong, nullable) NSNumber *duration;
 @property (nonatomic, strong, nullable) NSArray *files;
+@property (nonatomic, strong, nullable) NSArray *download;
 @property (nonatomic, strong, nullable) VIMVideoPlayRepresentation *playRepresentation;
 @property (nonatomic, strong, nullable) NSNumber *width;
 @property (nonatomic, strong, nullable) NSNumber *height;
